@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+     
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/loader.gif" >
+  
+</head>
+<body>
+    <header>
+
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>food</a>
+    
+        <div id="menu-bar" class="fas fa-bars"></div>
+    
+        <nav class="navbar">
+            <a href="index.html" target="_blank">home</a>
+            <a href="speciality.html"target="_blank">speciality</a>
+            <a href="popular.html" target="_blank">popular</a>
+            <a href="gallery and review.html" target="_blank">gallery and review</a>
+            <a href="menu.html" target="_blank">Menu</a>
+            <a href="#">register</a>
+        </nav>
+    
+    </header>
+    <h1 class="heading"> <span>order</span> now </h1>
+    <section class="order" id="order">
+
+        <h1 class="heading"> <span>order</span> now </h1>
+    
+        <div class="row">
+            
+            <div class="image">
+                <img src="images/order-img.jpg" alt="">
+            </div>
+             
+            <form id="myform" action="index.html" method="post" onsubmit="return validation()" autocomplete="on" >
+
+    
+                <div class="inputBox">
+                    <input name="fname" type="text" placeholder="First name" id="user" class="control" required>
+                    <input name="lname" type="text" placeholder="last name" id="user2" class="control" required>
+                    <input name="email" type="email" id="email" class="control" placeholder="email" required>
+                    <input  name="number" type="tel" id="mobile" class="control" placeholder="mobile phone number" pattern="[0-9]{11}"  required>
+                    <input  name="password"type="password" id ="pass" class="control" placeholder="password" required>
+                    <input name="passward" type="password" placeholder="confirm passward" id="conpass" class="control" >
+                </div>
+    
+            
+                    
+               
+               
+    
+                <textarea placeholder="address" name="address" id="" cols="30" rows="10" required></textarea>
+                
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label><br>
+                
+    
+                <input type="submit" value="order now" class="btn" id="submit" >
+    
+            </form>
+    
+        </div>
+    
+    </section>
+    
+ 
+    
+    <section class="footer">
+    
+        <div class="share">
+            <a href="https://www.facebook.com/" target="_blank" class="btn">facebook</a>
+            <a href="https://twitter.com/" class="btn" target="_blank">twitter</a>
+            
+            <a href="https://www.instagram.com/" class="btn" target="_blank">instagram</a>
+            <a href="https://www.pinterest.com/" class="btn" target="_blank">pinterest</a>
+            <a href="https://www.linkedin.com/" class="btn" target="_blank">linkedin</a>
+        </div>
+    
+        <h1 class="credit"> created by <span> Aya Abdo </span> | &copy;all rights reserved! </h1>
+    
+    </section>
+    
+    
+   
+    
+  
+
+    <div class="loader-container">
+        <img src="images/loader.gif" alt="">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
