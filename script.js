@@ -43,8 +43,7 @@ function validation(){
   var email = document.getElementById('email').value;
   var mobile = document.getElementById('mobile').value;
   
-  var myform = document.getElementById('myform');
-   // to check if that field empty or not
+
   
  
  //  to accert a name of 3 letters at least
@@ -54,6 +53,10 @@ function validation(){
   }
   if(user2.length<3){
     alert("*last Name must be more than 2 letters*");
+    return false;
+}
+    if(mobile.length!=11){
+    alert("*please enter a valid number*");
     return false;
 }
   
