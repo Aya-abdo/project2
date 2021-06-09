@@ -498,7 +498,14 @@ header .navbar a:hover{
   .order .row form .btn:hover{
     background:var(--red);
   }
-  
+  select
+  {
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+  }
   .footer{
     background:#000;
     text-align: center;
@@ -602,6 +609,13 @@ header .navbar a:hover{
       width:40%;
     }
   
+  }
+@media(max-width:300px)
+  {
+    select 
+    {
+      float: none;
+    }
   }
   
   
