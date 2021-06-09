@@ -107,7 +107,7 @@ alert("**must include at least 1 upper character**");
   else
 {
   alert("thank you");
-  window.location.href = './index.html'
+  window.location.href = './index.html';
   return  true;
 }
 
