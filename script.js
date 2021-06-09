@@ -104,6 +104,11 @@ alert("**must include at leasrt 1 upper character**");
     alert("**Please Enter valid Email**");
      return false;
 }
+  else
+{
+  alert("thank you");
+  return  true;
+}
 
 
   
