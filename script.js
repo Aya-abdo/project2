@@ -79,7 +79,7 @@ function validation(){
   }
   //not to accept without upper characters
   if(pass.search(/[A-Z]/)==-1){
-alert("**must include at leasrt 1 upper character**");
+alert("**must include at least 1 upper character**");
       return false;
   }
   // not to accept without lower characters
@@ -95,7 +95,7 @@ alert("**must include at leasrt 1 upper character**");
      }
   
   if(conpass != pass){
-      alert("**passward isnot matches");
+      alert("**passward is not matching");
       return false;
   
   }
