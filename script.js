@@ -34,7 +34,8 @@ function fadeOut(){
 window.onload = fadeOut();
 
 
-function validation(){
+function validation(e){
+   e.preventDefault();
   // store the value that user enter in variables
   var user = document.getElementById('user').value;
   var user2 =  document.getElementById('user2').value;
